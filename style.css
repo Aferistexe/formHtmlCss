@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -62,3 +63,83 @@ border-radius: 10px;
 width: 500px;
 font-size: 16px;
 }
+=======
+*{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+
+    margin: 0;
+    padding: 20px;
+}
+main{
+display: flex;
+margin: 0 auto;
+padding: 20px;
+min-width: 600px;
+max-width: 80%;
+margin-top: 225px;
+max-width: 1200px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: -8px 10px 15px rgb(175, 175, 175);
+    width: 60%;
+    border-radius: 20px;
+}
+.form div,.form h2{
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+input,textarea{
+    padding-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+}
+.subject_input,.message_input{
+    width: 80%;
+}
+.name_input,.email_input{
+    width: 39%;
+
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background: #1089ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    width: 20%;
+}
+textarea{
+    min-height: 100px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
+    background: #007bff;
+    border-radius: 20px;
+    margin-bottom: -30px;
+    color: white;
+}
+.input-error{
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+.input-succes{
+    border: 2px solid green;
+
+}
+>>>>>>> 98388e99b7c8ffa38861e0743a7b5c15c40d988e
